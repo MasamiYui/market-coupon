@@ -8,7 +8,7 @@ import java.util.List;
 @Data
 public class User implements Serializable {
     private static final String UNKNOWN = "unknown";
-    private String uid;
+    private Long uid;
     private String username;
     private List<Role> roles;
 }

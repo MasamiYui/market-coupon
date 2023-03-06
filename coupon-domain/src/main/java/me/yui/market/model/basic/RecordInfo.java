@@ -5,8 +5,8 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class CreateInfo {
+public class RecordInfo {
     private Date createTime;
     private Date modifyTime;
-    private User user;
+    //private User user;
 }
