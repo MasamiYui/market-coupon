@@ -1,9 +1,7 @@
-package me.yui.market.enums.basic;
+package me.yui.market.coupon.enums.basic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import me.yui.market.status.IStatus;
-import org.springframework.data.repository.cdi.Eager;
 
 @AllArgsConstructor
 @Getter
@@ -15,8 +13,8 @@ public enum BizTypeEnum {
     private final String name;
 
     public static BizTypeEnum of(String code) throws IllegalAccessException {
-        for(BizTypeEnum bizTypeEnum: values()){
-            if(bizTypeEnum.getCode().equals(code)){
+        for (BizTypeEnum bizTypeEnum : values()) {
+            if (bizTypeEnum.getCode().equals(code)) {
                 return bizTypeEnum;
             }
         }

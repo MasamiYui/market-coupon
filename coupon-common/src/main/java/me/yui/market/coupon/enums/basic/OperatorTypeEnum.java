@@ -1,4 +1,4 @@
-package me.yui.market.enums.basic;
+package me.yui.market.coupon.enums.basic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,8 +11,7 @@ public enum OperatorTypeEnum {
     USE(2, "USE"),
     UNFREEZE(3, "UNFREEZE"),
     REFUND(4, "REFUND"),
-    DELETE(5, "DELETE")
-    ;
+    DELETE(5, "DELETE");
     private int type;
     private String desc;
 }

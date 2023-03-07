@@ -1,6 +1,6 @@
 package me.yui.market.model.basic;
 
-import me.yui.market.enums.basic.BizLineEnum;
+import me.yui.market.coupon.enums.basic.BizLineEnum;
 
 public class BizMeta {
     private BizLineEnum bizLine;

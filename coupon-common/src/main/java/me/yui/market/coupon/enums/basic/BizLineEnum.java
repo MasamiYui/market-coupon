@@ -1,4 +1,4 @@
-package me.yui.market.enums.basic;
+package me.yui.market.coupon.enums.basic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,8 +13,8 @@ public enum BizLineEnum {
     private final String name;
 
     public static BizLineEnum of(String code) throws IllegalAccessException {
-        for(BizLineEnum bizlineEnum: values()){
-            if(bizlineEnum.getCode().equals(code)){
+        for (BizLineEnum bizlineEnum : values()) {
+            if (bizlineEnum.getCode().equals(code)) {
                 return bizlineEnum;
             }
         }

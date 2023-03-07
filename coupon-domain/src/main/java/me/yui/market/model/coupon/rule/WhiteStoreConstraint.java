@@ -1,8 +1,8 @@
 package me.yui.market.model.coupon.rule;
 
-import me.yui.market.exception.BizException;
+import me.yui.market.coupon.exception.BizException;
+import me.yui.market.coupon.status.ConstraintStatus;
 import me.yui.market.model.ext.Store;
-import me.yui.market.status.ConstraintStatus;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
 

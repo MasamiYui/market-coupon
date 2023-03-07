@@ -1,4 +1,4 @@
-package me.yui.market.enums.coupon;
+package me.yui.market.coupon.enums.coupon;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -24,8 +24,8 @@ public enum PromotionTypeEnum {
     private final String name;
 
     public static PromotionTypeEnum of(String code) throws IllegalAccessException {
-        for(PromotionTypeEnum typeEnum: values()){
-            if(typeEnum.getCode().equals(code)){
+        for (PromotionTypeEnum typeEnum : values()) {
+            if (typeEnum.getCode().equals(code)) {
                 return typeEnum;
             }
         }

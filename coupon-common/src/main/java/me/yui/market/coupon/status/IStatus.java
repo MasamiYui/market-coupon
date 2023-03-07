@@ -1,4 +1,4 @@
-package me.yui.market.status;
+package me.yui.market.coupon.status;
 
 public interface IStatus {
     String getStatus();

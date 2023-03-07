@@ -4,11 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import me.yui.market.enums.coupon.BatchStatusEnum;
+import me.yui.market.coupon.enums.coupon.BatchStatusEnum;
 import me.yui.market.model.basic.BizMeta;
 import me.yui.market.model.basic.RecordInfo;
 import me.yui.market.model.basic.User;
-import me.yui.market.model.coupon.rule.*;
+import me.yui.market.model.coupon.rule.BindRule;
+import me.yui.market.model.coupon.rule.UseRule;
 import me.yui.market.model.ext.Budget;
 import me.yui.market.model.ext.Stock;
 

@@ -1,13 +1,13 @@
 package me.yui.market.model.coupon;
 
 import lombok.Data;
-import me.yui.market.enums.coupon.PromotionTypeEnum;
+import me.yui.market.coupon.enums.coupon.PromotionTypeEnum;
 
 @Data
 public class Promotion {
     private PromotionTypeEnum promotionTypeEnum;
 
-    private Integer amount;
+    private Long amount;
 
-    private Integer discount;
+    private Long discount;
 }

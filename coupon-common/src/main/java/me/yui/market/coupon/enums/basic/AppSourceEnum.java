@@ -1,4 +1,4 @@
-package me.yui.market.enums.basic;
+package me.yui.market.coupon.enums.basic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,8 +17,8 @@ public enum AppSourceEnum {
     private final String name;
 
     public static AppSourceEnum of(String code) throws IllegalAccessException {
-        for(AppSourceEnum appSourceEnum: values()){
-            if(appSourceEnum.getCode().equals(code)){
+        for (AppSourceEnum appSourceEnum : values()) {
+            if (appSourceEnum.getCode().equals(code)) {
                 return appSourceEnum;
             }
         }

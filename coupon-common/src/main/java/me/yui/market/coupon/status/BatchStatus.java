@@ -1,13 +1,13 @@
-package me.yui.market.status;
+package me.yui.market.coupon.status;
 
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public enum ConstraintStatus implements IStatus{
+public enum BatchStatus implements IStatus {
 
 
-    BLACK_USER_LIST_CONSTRAINT_ERROR(30001, "CONSTRAINT BY BLACK USER LIST"),
-    WHITE_STORE_LIST_CONSTRAINT_ERROR(30002, "CONSTRAINT BY WHITE STORE LIST");
+    INVALID_PARAM(20001, "invalid parameter,%s");
+
 
     private int code;
     private String msg;
@@ -26,5 +26,4 @@ public enum ConstraintStatus implements IStatus{
     public String getMsg() {
         return msg;
     }
-
 }

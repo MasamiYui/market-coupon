@@ -1,13 +1,13 @@
-package me.yui.market.status;
+package me.yui.market.coupon.status;
 
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public enum BatchStatus implements IStatus{
+public enum BizStatus implements IStatus {
 
 
-    INVALID_PARAM(20001, "invalid parameter,%s");
-
+    SUCCESS(10000, "SUCCESS"),
+    FAILED(99999, "SERVICE BUSY");
 
     private int code;
     private String msg;

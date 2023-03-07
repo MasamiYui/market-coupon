@@ -8,27 +8,27 @@ import java.util.List;
 
 public class CouponBatchDomainService {
 
-    public CouponBatch create(CouponBatch couponBatch){
+    public CouponBatch create(CouponBatch couponBatch) {
         return null;
     }
 
-    public CouponBatch detail(CouponBatchId batchId){
+    public CouponBatch detail(CouponBatchId batchId) {
         return null;
     }
 
-    public List<CouponBatch> list(BatchQueryContext batchQueryContext){
+    public List<CouponBatch> list(BatchQueryContext batchQueryContext) {
         return null;
     }
 
-    public CouponBatch online(CouponBatchId couponBatchId){
+    public CouponBatch online(CouponBatchId couponBatchId) {
         return null;
     }
 
-    public CouponBatch offline(CouponBatchId couponBatchId){
+    public CouponBatch offline(CouponBatchId couponBatchId) {
         return null;
     }
 
-    public CouponBatch delete(CouponBatchId couponBatchId){
+    public CouponBatch delete(CouponBatchId couponBatchId) {
         return null;
     }
 }

@@ -1,13 +1,13 @@
-package me.yui.market.status;
+package me.yui.market.coupon.status;
 
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public enum BizStatus implements IStatus{
+public enum ConstraintStatus implements IStatus {
 
 
-    SUCCESS(10000, "SUCCESS"),
-    BIZ_FAIL(99999, "SERVICE BUSY");
+    BLACK_USER_LIST_CONSTRAINT_ERROR(30001, "CONSTRAINT BY BLACK USER LIST"),
+    WHITE_STORE_LIST_CONSTRAINT_ERROR(30002, "CONSTRAINT BY WHITE STORE LIST");
 
     private int code;
     private String msg;

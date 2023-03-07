@@ -1,7 +1,7 @@
 package me.yui.market.model.coupon;
 
 import lombok.Data;
-import me.yui.market.enums.basic.AppSourceEnum;
+import me.yui.market.coupon.enums.basic.AppSourceEnum;
 import me.yui.market.model.basic.BizMeta;
 import me.yui.market.model.basic.RecordInfo;
 import me.yui.market.model.basic.User;

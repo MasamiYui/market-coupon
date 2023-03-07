@@ -1,4 +1,4 @@
-package me.yui.market.enums.coupon;
+package me.yui.market.coupon.enums.coupon;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,8 +20,8 @@ public enum BatchStatusEnum {
     private final String name;
 
     public static BatchStatusEnum of(String code) throws IllegalAccessException {
-        for(BatchStatusEnum statusEnum: values()){
-            if(statusEnum.getCode().equals(code)){
+        for (BatchStatusEnum statusEnum : values()) {
+            if (statusEnum.getCode().equals(code)) {
                 return statusEnum;
             }
         }

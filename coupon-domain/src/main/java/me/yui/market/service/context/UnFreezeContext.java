@@ -5,10 +5,11 @@ import lombok.Data;
 
 @Data
 public class UnFreezeContext implements OperationContext {
-    
+
 
     @Override
-    public void checkContext() {}
+    public void checkContext() {
+    }
 
     @Override
     public boolean checkStatus(Integer statusBefore) {

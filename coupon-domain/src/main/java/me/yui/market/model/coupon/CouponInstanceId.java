@@ -20,11 +20,12 @@ public class CouponInstanceId {
      * make could query by userId and instanceId when Separate table
      * when query by instanceId, use: select table_{instanceId % table_nums}
      * when query by userId, use: select table_{userId % table_nums}
+     *
      * @param userId
      * @param timestamp
      * @return
      */
-    public static CouponInstanceId generateInstance(Long userId, Long timestamp){
+    public static CouponInstanceId generateInstance(Long userId, Long timestamp) {
         Long head = 1L;
         head <<= 62;
         timestamp <<= 19;
